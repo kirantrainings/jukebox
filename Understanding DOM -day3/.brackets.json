@@ -1,0 +1,5 @@
+{
+    "jscodehints.detectedExclusions": [
+        "E:/Server/nginx-1.10.1/html/vendor/highcharts/exporting-server/phantomjs/map.js"
+    ]
+}
