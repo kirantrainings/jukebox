@@ -1,0 +1,3 @@
+(function () {
+    var books = $.getAllBooks()
+})();
