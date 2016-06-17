@@ -1,0 +1,44 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <form class="form-horizontal">
+            <div class="form-group">
+                <label for="txtFirstName" class="control-label col-xs-2">First Name</label>
+                <div class="col-xs-4">
+                    <input type="text" class="form-control" id="txtFirstName" placeholder="First Name">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="txtPhoneNumber" class="control-label col-xs-2">Phone Number</label>
+                <div class="col-xs-4">
+                    <input type="text" class="form-control" id="txtPhoneNumber" placeholder="Phone Number">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-xs-offset-2 col-xs-10">
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox"> Remember me</label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-xs-offset-2 col-xs-10">
+                    <button onclick="login()" class="btn btn-primary">Login</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="validation.js"></script>
+    <script src="register.js"></script>
+</body>
+
+</html>
