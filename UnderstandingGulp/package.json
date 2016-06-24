@@ -1,0 +1,20 @@
+{
+  "name": "stockmarket",
+  "version": "1.0.0",
+  "description": "this application is used to monitor the stock markets.",
+  "main": "gulpFile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gulp",
+    "stock",
+    "market"
+  ],
+  "author": "kiran",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0"
+  }
+}
