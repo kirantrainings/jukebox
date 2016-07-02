@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.css">
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+</head>
+
+<body>
+    <div class="content">
+        <form class="form-horizontal">
+            <div class="form-group">
+                <label class="control-label col-xs-2" id="lblYear">Year</label>
+                <div class="col-xs-2">
+                    <select id="ddlYear" class="form-control"></select>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-xs-2"> Make</label>
+                <div class="col-xs-2">
+                    <input type="text" class="form-control" placeholder="Make" id="txtVehicleMake">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-xs-2"> Model</label>
+                <div class="col-xs-2">
+                    <input type="text" class="form-control" placeholder="Model" id="txtVehicleModel">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-xs-offset-2 col-xs-4">
+                    <button class="btn btn-primary" id="btnRegister">Register</button>
+                </div>
+            </div>
+
+
+        </form>
+    </div>
+    <script src="app/lookup.js"></script>
+    <script src="app/controls.js"></script>
+</body>
+
+</html>
